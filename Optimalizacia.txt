@@ -1,0 +1,20 @@
+Optimalizacia:
+------------------------------
+
+Konecna 2016:
+
+Toto bude konecna zmena aby to stihalo produkciu za 2016(potom je nutne zvysit zas padding ale mozno este nieco ine neviem riesime ot iba do 2016)
+
+PaddingTables   : 	7 -> 10
+TapingMachines  : 	9 -> 6
+PAckingMachines : 	2 -> 1
+SewingPanel	:	5 -> 3
+AssemblyMachine	:	4 -> 5
+
+hned v 2012 zmenit :
+Taping Machines 9->6
+PackingMachines 2->1
+SewingPanel	5->3
+
+s tym ze niekedy v roku 2013 ako sa zacnu prekrizovat tie ciary v grave treba zvysit Padding machine o 1 ( lebo asi nechceme to dat hned na konecnych 10 a bude sa 4 roky overprodukovat)
+a kazdym rokom potom zvysovat paddingTables o 1 na konecnych 10 v 2016tom

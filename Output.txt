@@ -1,0 +1,185 @@
+-----------------------------------------------
+ Spring department 
+-----------------------------------------------
+Total produced coils : 8144856
+Total produced chassis : 30912
+Total produced chassis frames : 73029
+Total produced semi-finished bonnels : 30912
+
+Actual numbers(not yet produced by the end of simulation): 
+Actual coils : 7372056
+Actual chassis frames : 11205
+Actual semi-finished bonnels : 0
+
+Assembly machines work rate : 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 4  (4 used, 0 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 30916                      |
+|  Minimal used capacity = 1                               |
+|  Maximal used capacity = 4                               |
+|  Average used capacity = 3.99999                         |
++----------------------------------------------------------+
+  Input queue '.Q'
++----------------------------------------------------------+
+| QUEUE Q                                                  |
++----------------------------------------------------------+
+|  Time interval = 0 - 33000                               |
+|  Incoming  8144828                                       |
+|  Outcoming  30912                                        |
+|  Current length = 8113916                                |
+|  Maximal length = 8.11392e+06                            |
+|  Average length = 4.05695e+06                            |
+|  Minimal time = 4.14789                                  |
+|  Maximal time = 32872.8                                  |
+|  Average time = 16443.1                                  |
+|  Standard deviation = 9489.55                            |
++----------------------------------------------------------+
+
+Clinching tables work : 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 5  (0 used, 5 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 30912                      |
+|  Minimal used capacity = 0                               |
+|  Maximal used capacity = 1                               |
+|  Average used capacity = 0                               |
++----------------------------------------------------------+
+
+-----------------------------------------------
+ Quilting and tailoring department 
+-----------------------------------------------
+Total fabric produced : 79869
+Total produced borders : 32188
+Total produced Panels : 47679
+
+Actual numbers(not yet produced by the end of simulation): 
+Actual borders : 1276
+Actual panels : 16767
+
+Assembly machines work rate : 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 5  (2 used, 3 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 47681                      |
+|  Minimal used capacity = 0                               |
+|  Maximal used capacity = 5                               |
+|  Average used capacity = 2.18763                         |
++----------------------------------------------------------+
+  Input queue '.Q'
++----------------------------------------------------------+
+| QUEUE Q                                                  |
++----------------------------------------------------------+
+|  Time interval = 0 - 33000                               |
+|  Incoming  76                                            |
+|  Outcoming  76                                           |
+|  Current length = 0                                      |
+|  Maximal length = 1                                      |
+|  Average length = 0.000141225                            |
+|  Minimal time = 0.000371718                              |
+|  Maximal time = 0.217644                                 |
+|  Average time = 0.0613213                                |
++----------------------------------------------------------+
+
+Clinching tables work : 
++----------------------------------------------------------+
+| FACILITY BorderMachine                                   |
++----------------------------------------------------------+
+|  Status = not BUSY                                       |
+|  Time interval = 0 - 33000                               |
+|  Number of requests = 32188                              |
+|  Average utilization = 0.293873                          |
++----------------------------------------------------------+
+  Input queue 'BorderMachine.Q1'
++----------------------------------------------------------+
+| QUEUE Q1                                                 |
++----------------------------------------------------------+
+|  Time interval = 0 - 33000                               |
+|  Incoming  6348                                          |
+|  Outcoming  6348                                         |
+|  Current length = 0                                      |
+|  Maximal length = 2                                      |
+|  Average length = 0.033345                               |
+|  Minimal time = 7.35137e-06                              |
+|  Maximal time = 0.701267                                 |
+|  Average time = 0.173344                                 |
+|  Standard deviation = 0.112801                           |
++----------------------------------------------------------+
+
+-----------------------------------------------
+ Matress Build-up department 
+-----------------------------------------------
+Padding tables work rate: 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 7  (7 used, 0 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 16275                      |
+|  Minimal used capacity = 1                               |
+|  Maximal used capacity = 7                               |
+|  Average used capacity = 6.9983                          |
++----------------------------------------------------------+
+  Input queue '.Q'
++----------------------------------------------------------+
+| QUEUE Q                                                  |
++----------------------------------------------------------+
+|  Time interval = 0 - 33000                               |
+|  Incoming  30905                                         |
+|  Outcoming  16268                                        |
+|  Current length = 14637                                  |
+|  Maximal length = 14637                                  |
+|  Average length = 7312.58                                |
+|  Minimal time = 6.84828                                  |
+|  Maximal time = 15614.8                                  |
+|  Average time = 7809.73                                  |
+|  Standard deviation = 4504.51                            |
++----------------------------------------------------------+
+
+Tape machines work rate: 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 9  (2 used, 7 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 16268                      |
+|  Minimal used capacity = 0                               |
+|  Maximal used capacity = 7                               |
+|  Average used capacity = 3.48821                         |
++----------------------------------------------------------+
+
+Packing machines work rate: 
++----------------------------------------------------------+
+| STORE                                                    |
++----------------------------------------------------------+
+|  Capacity = 2  (0 used, 2 free)                          |
+|  Time interval = 0 - 33000                               |
+|  Number of Enter operations = 16266                      |
+|  Minimal used capacity = 0                               |
+|  Maximal used capacity = 2                               |
+|  Average used capacity = 0.159352                        |
++----------------------------------------------------------+
+  Input queue '.Q'
++----------------------------------------------------------+
+| QUEUE Q                                                  |
++----------------------------------------------------------+
+|  Time interval = 0 - 33000                               |
+|  Incoming  112                                           |
+|  Outcoming  112                                          |
+|  Current length = 0                                      |
+|  Maximal length = 2                                      |
+|  Average length = 0.0003862                              |
+|  Minimal time = 0.00155787                               |
+|  Maximal time = 0.304124                                 |
+|  Average time = 0.113791                                 |
+|  Standard deviation = 0.0660064                          |
++----------------------------------------------------------+
+
+
+Total produced matress: 16266

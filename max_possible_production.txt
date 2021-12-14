@@ -1,0 +1,8 @@
+ASSEMBLY MACHINES	: 4.216745
+CLINCHING TABLES 	: 4.189585
+SEWING PANELS		: 2.19442 
+PADDING MACHINE		: 13.7516
+TAPING MACHINE		: 6.83006  
+
+maximalni mozna produkce : cca 32000 
+potom uz je nedostatok coily, a je nutne upravit aj produkciu borderov lebo ani tie nebudu stihat

@@ -5,11 +5,13 @@ int idx_quilting = 0;
 //int ispanel = 0; //1 - panel, 0 - border
 const double wait2[3] = {1.36, 1.46, 1.00};
 
-Store PanelMachines(5);
+Store PanelMachines(5); //5 -> 3
 Facility BorderMachine("BorderMachine");
 
 int panelCounter = 0;
+int totalProducedPanels = 0;
 int borderCounter = 0;
+int totalProducedBorders = 0;
 int fabricCounter = 0;
 
 double _Weibull(double a, double b){
@@ -50,6 +52,7 @@ class Sewing: public Process{
             Wait(1+_Weibull(4.37, 0.564));
             Leave(PanelMachines, 1);
             panelCounter++;
+            totalProducedPanels++;
             return;
         }
 
@@ -58,6 +61,7 @@ class Sewing: public Process{
             Wait(_Weibull(6.13, 0.324));
             Release(BorderMachine);
             borderCounter++;
+            totalProducedBorders++;
         }
 
 };
